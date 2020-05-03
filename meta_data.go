@@ -1,7 +1,7 @@
 package gokeepasslib
 
 import (
-	w "github.com/tobischo/gokeepasslib/v3/wrappers"
+	w "github.com/footmau/gokeepasslib/wrappers"
 )
 
 // MemProtection is a structure containing settings for MemoryProtection
@@ -69,6 +69,7 @@ type MetaData struct {
 	LastTopVisibleGroup        string         `xml:"LastTopVisibleGroup"`
 	Binaries                   Binaries       `xml:"Binaries>Binary"`
 	CustomData                 []CustomData   `xml:"CustomData>Item"`
+	CustomIcons                []CustomIcon   `xml:"CustomIcons>Icon"`
 }
 
 func (md *MetaData) setKdbxFormatVersion(version formatVersion) {

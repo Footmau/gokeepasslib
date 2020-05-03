@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tobischo/gokeepasslib/v3/wrappers"
+	"github.com/footmau/gokeepasslib/wrappers"
 )
 
 func TestNewMetaData(t *testing.T) {

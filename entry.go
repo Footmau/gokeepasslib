@@ -3,7 +3,7 @@ package gokeepasslib
 import (
 	"encoding/xml"
 
-	w "github.com/tobischo/gokeepasslib/v3/wrappers"
+	w "github.com/footmau/gokeepasslib/wrappers"
 )
 
 type EntryOption func(*Entry)
@@ -18,6 +18,7 @@ func WithEntryFormattedTime(formatted bool) EntryOption {
 type Entry struct {
 	UUID            UUID              `xml:"UUID"`
 	IconID          int64             `xml:"IconID"`
+	CustomIconUUID  UUID              `xml:"CustomIconUUID"`
 	ForegroundColor string            `xml:"ForegroundColor"`
 	BackgroundColor string            `xml:"BackgroundColor"`
 	OverrideURL     string            `xml:"OverrideURL"`

@@ -3,7 +3,7 @@ package gokeepasslib
 import (
 	"encoding/xml"
 
-	w "github.com/tobischo/gokeepasslib/v3/wrappers"
+	w "github.com/footmau/gokeepasslib/wrappers"
 )
 
 // DeletedObjectData is the structure for a deleted object

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	w "github.com/tobischo/gokeepasslib/v3/wrappers"
+	w "github.com/footmau/gokeepasslib/wrappers"
 )
 
 func TestNewContent(t *testing.T) {

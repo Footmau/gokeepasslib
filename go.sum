@@ -2,6 +2,7 @@ github.com/aead/argon2 v0.0.0-20180111183520-a87724528b07 h1:i9/M2RadeVsPBMNwXFi
 github.com/aead/argon2 v0.0.0-20180111183520-a87724528b07/go.mod h1:Tnm/osX+XXr9R+S71o5/F0E60sRkPVALdhWw25qPImQ=
 github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da h1:KjTM2ks9d14ZYCvmHS9iAKVt9AyzRSqNU1qabPih5BY=
 github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da/go.mod h1:eHEWzANqSiWQsof+nXEI9bUVUyV6F53Fp89EuCh2EAA=
+github.com/footmau/gokeepasslib v1.0.0 h1:h7+UZ8p49ia2xuWvmHwz3T8+tri6WP4dn96Z4ORESoc=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79 h1:IaQbIIB2X/Mp/DKctl6ROxz1KyMlKp4uyvL6+kQ7C88=
 golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tobischo/gokeepasslib/v3/wrappers"
+	"github.com/footmau/gokeepasslib/wrappers"
 )
 
 func TestNewRootData(t *testing.T) {
